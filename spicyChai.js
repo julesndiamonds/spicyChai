@@ -1,4 +1,3 @@
-
 <script>
 
 $('h1') .css("background-color","Aquamarine");
