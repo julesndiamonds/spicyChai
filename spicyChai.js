@@ -17,9 +17,15 @@ if (backgroundImage === "Strawberries"){
 	$('body') .append('<div> Strawberry fields FOREVER</div>');
 	$('p') .append('<img src="https://popandcircumstanceblog.files.wordpress.com/2013/06/strawberry_fields.jpg?w=1238">');
 	$('p').css("background-color", "Yellow");
-} else {
-$('body') .append('<div>Lucy in the Sky with Diamonds</div>');
+
+if (backgroundImage === "Lucy"){
+	$('body') .append('<div>Lucy in the Sky with Diamonds</div>');
 	$('p') .append('<img src="http://www.acting-man.com/blog/media/2016/03/lucy_in_the_sky_with_diamonds_by_motorhead15-d7frlon.jpg">');
+	$('p').css("background-color", "LavenderBlush");
+
+} else {
+$('body') .append('<div>You fail</div>');
+	$('p') .append('<img src="http://www.psycholocrazy.com/wp-content/uploads/2014/07/matthias-steiner-re_5761332-original-lightbox.jpg">');
 	$('p').css("background-color", "LavenderBlush");
 }
 
